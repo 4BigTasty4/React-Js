@@ -1,0 +1,43 @@
+.news-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.movie-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+}
+
+.movie-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #eee;
+}
+
+.movie-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.movie-year,
+.movie-timeline,
+.movie-rating {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
